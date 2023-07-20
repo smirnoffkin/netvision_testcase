@@ -1,0 +1,10 @@
+[flake8]
+extend-ignore = F401, E712
+exclude =
+    .git,
+    venv/,
+    __pycache__,
+    *migrations*,
+    *tests*,
+    *client_app*,
+max-line-lenght = 88
